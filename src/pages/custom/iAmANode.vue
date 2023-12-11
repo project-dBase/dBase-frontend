@@ -10,7 +10,7 @@
       </v-row>
       <v-card-title cols="12" class="ma-3" style="display: block">Controll</v-card-title>
       <v-row>
-        <v-col cols="12" sm="6" md="4" lg="3" xl="2" v-for="(button, index) in buttons" :key="index">
+        <v-col cols="12" sm="6" md="3"  v-for="(button, index) in buttons" :key="index">
           <div class="d-flex justify-center align-center" style="height: 100px">
             <v-btn :color="button.color" @click="button.onClick">
               {{ button.title }}
@@ -500,7 +500,7 @@ export default {
           "type": "function"
         }
       ],
-      contractAddress: "0xc4e887206748B187B7756F3AE34f15De6213f541",
+      contractAddress: "0x8C2e539c53AF937f64B27ab3B43ffc22F00e7919",
       web3: new Web3(window.ethereum),
       contract: null,
       newValue: 0,

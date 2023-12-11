@@ -26,8 +26,8 @@ export var menuItems={
           "active":false
         },
         {
-          "path": "/verifydata",
-          "title": "Verify Data",
+          "path": "/addData",
+          "title": "Add data",
           "type": "link",
           "active":false
 

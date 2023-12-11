@@ -426,7 +426,7 @@ export default {
           "type": "function"
         }
       ],
-      contractAddress: "0xd4E9D1BaC9B099c106126847534623D528585748",
+      contractAddress: "0xD9f0Fc9EFEbB71Ca5cDdED914C6B7a6079F4Ace6",
       web3: new Web3(window.ethereum),
       contract: null,
       newValue: 0,

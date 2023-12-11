@@ -885,7 +885,7 @@ export default {
             }
           ]
           ,
-          contractAddress2:'0x7DC3e8729630123E5F8dacEC5A3fAeBC9b43e573',
+          contractAddress2:'0x34E1e6f8beA0c678f4b6a58464b64cd8e199B1E2',
           web3: new Web3(window.ethereum),
           contract: null,
           contract2: null,

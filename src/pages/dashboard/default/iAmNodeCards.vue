@@ -3,9 +3,7 @@
     <v-col
         cols="12"
         sm="6"
-        md="4"
-        lg="3"
-        xl="2"
+        md="3"
         v-for="puechaseSales in puechaseSalesDetails"
         :key="puechaseSales"
     >

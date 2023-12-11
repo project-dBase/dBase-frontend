@@ -42,7 +42,7 @@
 import Web3 from 'web3';
 
 export default {
-  name: 'VerifyData',
+  name: 'AddData',
 
   data() {
     return {
@@ -415,7 +415,7 @@ export default {
         }
       ],
 
-      contractAddress: "0x1e50d53ac9C85329a8AA7464bAD14364c584828c",
+      contractAddress: "0x3A3a25d8F19419a8A323F252b6C5b44579DF7816",
       web3: new Web3(window.ethereum),
       contract: null,
       newValue: 0,

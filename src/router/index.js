@@ -75,7 +75,7 @@ import Rating from "../pages/advance/rating/ratingView.vue";
 import Pagination from "../pages/advance/pagination/pagination_advance.vue";
 import Ribbons from "../pages/advance/ribbons/ribbons_advance.vue";
 import Tour from "../pages/advance/tour/tourView.vue";
-import VerifyData  from "@/pages/custom/verifyData.vue";
+import AddData  from "@/pages/custom/addData.vue";
 import BuyData  from "@/pages/custom/buyData.vue";
 import ReadData  from "@/pages/custom/readData.vue";
 import BecomeNode  from "@/pages/custom/becomeNode.vue";
@@ -247,11 +247,11 @@ const routes = [
             }
           },
           {
-            path: '/verifydata',
-            name: 'verifydata',
-            component: VerifyData,
+            path: '/adddata',
+            name: 'adddata',
+            component: AddData,
             meta: {
-              title: ' Verify Data',
+              title: ' Add Data',
             }
           },
           {
