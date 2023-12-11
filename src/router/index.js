@@ -76,6 +76,7 @@ import Pagination from "../pages/advance/pagination/pagination_advance.vue";
 import Ribbons from "../pages/advance/ribbons/ribbons_advance.vue";
 import Tour from "../pages/advance/tour/tourView.vue";
 import AddData  from "@/pages/custom/addData.vue";
+import VerifyData  from "@/pages/custom/verifyData.vue";
 import BuyData  from "@/pages/custom/buyData.vue";
 import ReadData  from "@/pages/custom/readData.vue";
 import BecomeNode  from "@/pages/custom/becomeNode.vue";
@@ -252,6 +253,13 @@ const routes = [
             component: AddData,
             meta: {
               title: ' Add Data',
+            }
+          }, {
+            path: '/verifydata',
+            name: 'verifydata',
+            component: VerifyData,
+            meta: {
+              title: 'Verify Data',
             }
           },
           {

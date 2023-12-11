@@ -1,7 +1,5 @@
 <template>
   <div class="gradientCircle">
-
-
     <v-container align="center" class="mt-10">
       <v-card-title cols="12" class="ma-3" style="display: block">Become a Node!</v-card-title>
       <v-row>
@@ -14,28 +12,12 @@
                 <v-col cols="12">
                   <v-text-field v-model="nodeEndpoint" label="Input your endpoint" style="color: #D7C3CE;"></v-text-field>
                 </v-col>
-
-
               </v-row>
-
-
-
-
-              <!-- Add Button -->
               <v-btn @click="submitt" color="#7066f6" class="ma-2" style="color: #D7C3CE;">Submit</v-btn>
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="1"></v-col>
-        <v-col md="6"  class="mx-auto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel massa blandit, consectetur arcu at, imperdiet velit. Donec velit nibh, facilisis et nunc at, fringilla porttitor arcu. Etiam diam odio, mattis eget dolor ac, sagittis blandit magna. Mauris velit neque, iaculis eget tellus non, convallis congue erat. Sed viverra dolor sit amet nisl consectetur, non finibus erat pretium. Praesent id semper massa. Etiam dapibus sapien at urna fermentum lacinia. Donec cursus augue facilisis luctus egestas. Morbi consectetur, nulla ac viverra placerat, ex tortor feugiat nulla, at ultrices tortor nisi placerat diam. Nunc nisi mauris, dapibus eget urna sit amet, cursus finibus metus. Praesent eu pellentesque metus. Duis laoreet porttitor sagittis. Phasellus sollicitudin ac massa vitae accumsan.
-
-            Proin ligula tortor, tristique nec congue viverra, rutrum ullamcorper ex. Suspendisse et velit fringilla, suscipit eros ut, facilisis odio. Praesent et arcu magna. Phasellus vehicula nec nunc sit amet laoreet. Morbi finibus dolor a erat sagittis, non pharetra tortor euismod. Sed accumsan porttitor congue. Integer et leo ut eros imperdiet ullamcorper eu sed velit. Morbi a odio id neque tincidunt congue accumsan vel leo.</p>
-
-        </v-col>
       </v-row>
-
-
     </v-container>
   </div>
 </template>

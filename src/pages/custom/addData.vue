@@ -6,7 +6,7 @@
         <v-card-title cols="12" class="ma-3" style="display: block">Add your data, try it now!</v-card-title>
       <v-row>
         <v-col cols="12" md="6" class="mx-auto">
-          <v-card :style="{ 'border': '5px solid #4C7987', 'border-radius': '20px', 'background-color': 'rgba(160, 162, 177, 0.45)', 'flex-direction': 'column', 'margin': 'auto' }">
+          <v-card :style="{ 'border': '5px solid #D7C3CE', 'border-radius': '20px', 'background-color': 'rgba(160, 162, 177, 0.45)', 'flex-direction': 'column', 'margin': 'auto' }">
             <v-card-text >
               <!-- Block Name Input -->
               <v-card-title style="color: #D7C3CE;">Playground</v-card-title>
@@ -21,15 +21,15 @@
                   <v-text-field v-model="item.value" label="Value" style="color: #D7C3CE;"></v-text-field>
                 </v-col>
                 <v-col cols="2">
-                  <v-btn @click="removeItem(index)" x-small class="mt-2" color="#1A262D" style="border: 1px solid #4C7987; border-radius: 35%; min-width: 14px; min-height: 14px;color: #D7C3CE">
+                  <v-btn @click="removeItem(index)" x-small class="mt-2" color="#1A262D" style="border: 1px solid #D7C3CE; border-radius: 35%; min-width: 14px; min-height: 14px;color: #D7C3CE">
                     -
                   </v-btn>
                 </v-col>
               </v-row>
 
               <!-- Add Button -->
-              <v-btn @click="addItem" color="#4C7987" class="ma-2" style="min-width: 14px; color:#D7C3CE">+</v-btn>
-              <v-btn @click="submitt" color="#4C7987" class="ma-2" style="color: #D7C3CE;">Submit</v-btn>
+              <v-btn @click="addItem" color="#D7C3CE" class="ma-2" style="min-width: 14px; color:#1A262D">+</v-btn>
+              <v-btn @click="submitt" color="#D7C3CE" class="ma-2" style="color: #1A262D;">Submit</v-btn>
             </v-card-text>
           </v-card>
         </v-col>
@@ -464,8 +464,8 @@ export default {
 
 <style scoped>
 .gradientCircle {
-  background: radial-gradient(circle at center, #406772, #23353D , #1A262D, #1A262D);
-color: #D7C3CE;
+  background: radial-gradient(circle at center, #A599A3, #434850, #1A262D, #1A262D);
+  color: #D7C3CE;
   min-height: 100vh;
  }
 

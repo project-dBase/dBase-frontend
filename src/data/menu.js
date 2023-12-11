@@ -26,8 +26,24 @@ export var menuItems={
           "active":false
         },
         {
+          "path": "/verifyData",
+          "title": "Verify data",
+          "type": "link",
+          "active":false
+
+        },
+        {
           "path": "/addData",
           "title": "Add data",
+          "type": "link",
+          "active":false
+
+        },
+
+
+        {
+          "path": "/readdata",
+          "title": "Read Data",
           "type": "link",
           "active":false
 
@@ -35,14 +51,6 @@ export var menuItems={
         {
           "path": "/buydata",
           "title": "Buy Data",
-          "type": "link",
-          "active":false
-
-        },
-
-        {
-          "path": "/readdata",
-          "title": "Read Data",
           "type": "link",
           "active":false
 

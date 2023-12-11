@@ -17,7 +17,7 @@
 
         <v-col cols="12" md="4">
           <card-for-home-page
-              :path="'/buydata'"
+              :path="'/readdata'"
               cardTitle="Get needed data"
               cardText="Do you need data that is not accessible on the net? You can rent data for some period of time or buy it so you have lifetime access - get needed data on dBase"
               card_color="#D7C3CE"
@@ -27,8 +27,7 @@
 
         <v-col cols="12" md="4">
           <card-for-home-page
-              :path="'/buydata'"
-
+              :path="'/'"
               cardTitle="Get needed statistics"
               cardText="Get needed statistics without knowledge of the data. We offer you to sell your data for statistic, but the user cannot read your data - just see the statistic"
               card_color="#86899F"

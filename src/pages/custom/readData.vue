@@ -6,7 +6,7 @@
       <v-card-title cols="12" class="ma-3" style="display: block">Read data!</v-card-title>
       <v-row>
         <v-col cols="12" md="6" class="mx-auto">
-          <v-card :style="{ 'border': '5px solid #4C7987', 'border-radius': '20px', 'background-color': 'rgba(160, 162, 177, 0.45)', 'flex-direction': 'column', 'margin': 'auto' }">
+          <v-card :style="{ 'border': '5px solid #D7C3CE', 'border-radius': '20px', 'background-color': 'rgba(160, 162, 177, 0.45)', 'flex-direction': 'column', 'margin': 'auto' }">
             <v-card-text >
               <v-card-title style="color: #D7C3CE;">Read data</v-card-title>
 <v-row>
@@ -23,7 +23,7 @@
 
 
               <!-- Add Button -->
-              <v-btn @click="submitt" color="#4C7987" class="ma-2" style="color: #D7C3CE;">Submit</v-btn>
+              <v-btn @click="submitt" color="#D7C3CE" class="ma-2" style="color: #1A262D;">Submit</v-btn>
             </v-card-text>
           </v-card>
         </v-col>
@@ -462,7 +462,7 @@ export default {
 
 <style scoped>
 .gradientCircle {
-  background: radial-gradient(circle at center, #406772, #23353D , #1A262D, #1A262D);
+  background: radial-gradient(circle at center, #A599A3, #434850, #1A262D, #1A262D);
   color: #D7C3CE;
   min-height: 100vh;
 }

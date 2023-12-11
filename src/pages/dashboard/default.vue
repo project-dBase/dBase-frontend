@@ -8,7 +8,17 @@
                 <PurchaseSaleCard :puechase-sales-details1="puechaseSalesDetails" :puechase-sales-details2="puechaseSalesDetails2"/>
                 <OrdersProfitCard />
 
-
+              <div class="col-sm-6 col-md-3 mb-3">
+                <div class="card text-center mb-0">
+                  <div class="card-header b-l-primary mb-0">
+                    <h6 class="mb-0">Verify your data</h6>
+                  </div>
+                  <div class="card-body f-light">
+                    <p>Verify your data and stay safe!</p>
+                    <button onclick="window.location.href='/verifydata'" class="btn btn-primary mx-auto">Look now</button>
+                  </div>
+                </div>
+              </div>
 
               <div class="col-sm-6 col-md-3 mb-3">
                 <div class="card text-center mb-0">
@@ -17,7 +27,7 @@
                   </div>
                   <div class="card-body f-light">
                     <p>Rent your data to other users and earn money!</p>
-                    <button @click="search_open" class="btn btn-primary mx-auto">Look now</button>
+                    <button onclick="window.location.href='/adddata'" class="btn btn-primary mx-auto">Look now</button>
                   </div>
                 </div>
               </div>
@@ -26,28 +36,16 @@
               <div class="col-sm-6 col-md-3 mb-3">
                 <div class="card text-center mb-0">
                   <div class="card-header b-l-primary mb-0">
-                    <h6 class="mb-0">Sell your data</h6>
+                    <h6 class="mb-0">Read data</h6>
                   </div>
                   <div class="card-body f-light">
-                    <p>Sell your data to other users!</p>
-                    <button @click="search_open" class="btn btn-primary mx-auto">Look now</button>
+                    <p>Get needed data from other users!</p>
+                    <button onclick="window.location.href='/readdata'" class="btn btn-primary mx-auto">Look now</button>
                   </div>
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-3 mb-3">
-                <div class="card text-center mb-0">
-                  <div class="card-header b-l-primary mb-0">
-                    <h6 class="mb-0">Verify your data</h6>
-                  </div>
-                  <div class="card-body f-light">
-                    <p>Verify your data and stay safe!</p>
-                    <button @click="search_open" class="btn btn-primary mx-auto">Look now</button>
 
-                  </div>
-
-                </div>
-              </div>
 
               <div class="col-sm-6 col-md-3 mb-3">
                 <div class="card text-center mb-0">
@@ -55,7 +53,7 @@
                     <h6 class="mb-0">Get statistics</h6>
                   </div>
                   <div class="card-body f-light">
-                    <p>Get needed statistics without knowing them!</p>
+                    <p>Get needed statistics without knowing the data!</p>
                     <button @click="search_open" class="btn btn-primary mx-auto">Look now</button>
                   </div>
                 </div>
@@ -130,7 +128,7 @@ export default {
             widgetClass: "widget-round secondary",
             svgIcon1: "cart",
             svgIcon2: "halfcircle",
-            number: "",
+            number: "2335",
             title: "Stored blocks",
             growthClass: "font-secondary f-w-500",
           },
@@ -138,8 +136,8 @@ export default {
               widgetClass: "widget-round primary",
               svgIcon1: "tag",
               svgIcon2: "halfcircle",
-              number: "",
-              title: "Acessed blocks",
+              number: "210",
+              title: "Accessed blocks",
               growthClass: "font-primary f-w-500",
 
             },
@@ -149,7 +147,7 @@ export default {
             widgetClass: "widget-round warning",
             svgIcon1: "return-box",
             svgIcon2: "halfcircle",
-            number: "",
+            number: "0",
             title: "Stored functions",
             growthClass: "font-warning f-w-500",
 
@@ -158,7 +156,7 @@ export default {
               widgetClass: "widget-round success",
               svgIcon1: "rate",
               svgIcon2: "halfcircle",
-              number: "",
+              number: "12",
               title: "Network nodes",
               growthClass: "font-success f-w-500",
 
